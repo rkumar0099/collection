@@ -1,7 +1,12 @@
 # Contributors
 
 ```html
-{% for p in site.stu %}
-  <a href="{{site.baseurl}}{{p.url }}"> {{ p.name }} </a> <br>
+---
+layout: article
+---
+
+{% for rd in site.stu %}
+    <a href="{{site.baseurl}}{{rd.url }}"> {{ rd.name }} </a> <br>
 {% endfor %}
+
 ```
