@@ -1,4 +1,10 @@
-theme: jekyll-theme-midnight
+## => Plugins
+##############################
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
 collections:
   stu:
     output: true
